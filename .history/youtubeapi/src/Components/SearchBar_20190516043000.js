@@ -7,7 +7,7 @@ const SearchBar = () =>{
             <form>
                 <div className='text-field'>
                     <label><i>Video Search</i></label>
-                    <input name="video-search" type="text"></input>
+                        <input name="video-search" type="text"></input>
                 </div>
             </form>
         </div>

@@ -1,5 +1,4 @@
 import react from 'react';
-import {connect} from 'react-redux';
 
 const SearchBar = () =>{
     return (
@@ -7,15 +6,10 @@ const SearchBar = () =>{
             <form>
                 <div className='text-field'>
                     <label><i>Video Search</i></label>
-                    <input name="video-search" type="text"></input>
+                        <input name="video-search" type="text"></input>
                 </div>
             </form>
         </div>
     )
 }
-const mapStateToProps = state =>{
-    return{
-        /**something... */
-    }
-}
-export default connect(mapStateToProps)(SearchBar);
+export default SearchBar;
