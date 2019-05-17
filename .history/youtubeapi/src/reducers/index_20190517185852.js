@@ -3,7 +3,7 @@ import axios from 'axios';
 import { combineReducers } from 'redux';
 
 const KEY = "AIzaSyBWHHxxUhdhUKXnEjkZs2GsMJed5apc0jU";
-connAPI = () =>{
+const connAPI = () =>{
     axios.get('https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=12&order=viewCount&relevanceLanguage=en&type=video&key=${KEY}')
     .then(data => {
         console.log(data.data)

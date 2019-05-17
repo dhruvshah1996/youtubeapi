@@ -15,7 +15,6 @@ const SearchBar = () =>{
 }
 const mapStateToProps = state =>{
     return{
-        
     }
 }
 export default connect(mapStateToProps)(SearchBar);

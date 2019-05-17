@@ -2,8 +2,6 @@ import React from 'react';
 
 import './App.css';
 import SearchBar from './Components/SearchBar';
-import VideoView from './Components/VideoView';
-import VideoQueue from './Components/VideoQueue';
 
 const App = () => {
   return (
@@ -24,4 +22,5 @@ const App = () => {
     </div>
   );
 }
+
 export default App;
