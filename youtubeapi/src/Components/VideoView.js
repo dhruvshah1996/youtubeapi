@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const VideoView = ({video}) => {
     if (!video) {
         return <div>Loading ...</div>;
@@ -9,7 +10,7 @@ const VideoView = ({video}) => {
     return (
         <div>
             <div>
-                <iframe src={videoSrc} allowFullScreen title='Video player'/>
+                <iframe src={videoSource} allowFullScreen title='Video player'/>
             </div>
             <div>
                 <h4>{video.snippet.title}</h4>
