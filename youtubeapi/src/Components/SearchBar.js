@@ -1,5 +1,6 @@
 import react from 'react';
 import {connect} from 'react-redux';
+import SearchBar.css
 
 const SearchBar = () =>{
     return (

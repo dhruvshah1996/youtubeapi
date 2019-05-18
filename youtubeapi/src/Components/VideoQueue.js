@@ -1,4 +1,5 @@
 import React from 'react';
+import VideoQueue.css
 import VideoItem from './VideoItem';
 
 const VideoQueue = ({videos}) => {
